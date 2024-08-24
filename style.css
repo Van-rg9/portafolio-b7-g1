@@ -1,5 +1,37 @@
 /*
 */
-#presentacion {
-   
+
+.proyecto{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
+
+#proyecto-1 {
+    background-image: url(Google.png.png);
+    
+}
+#proyecto-2{
+    background-image: url(clonacion.png);
+    
+}
+#proyecto-3{
+    background-image: url(aves.png);
+}
+
+.text-shadow-1 {
+    text-shadow: -2px 3px 6px rgb(0 0 0 / 81%);
+    
+}
+#presentacion{
+    background-color: rgb(247, 234, 245);
+}
+body{
+    background-color: rgb(216, 185, 241);
+}
+
+
+  
+
+
+  

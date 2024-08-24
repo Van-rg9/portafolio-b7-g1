@@ -18,9 +18,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Vanessa Rangel</a>
+                <a class="navbar-brand" href="#presentacion">Vanessa Rangel</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link" aria-current="page" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonios</a>
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -51,12 +51,13 @@
         <section id="presentacion" class="container my-5">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Vanessa Rangel
+                    <h1 id="app" class="display-4 fw-bold lh-1 text-body-emphasis ">Vanessa Rangel
                     </h1>
-                    <p class="lead">Biologa.</p>
+                    <p class="lead">Bióloga con gusto por los proyectos multidisciplinarios. Desarrolladora junior y
+                        aprendiz de nuevas herramientas tecnológicas.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Contactame</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">van.rg9@gmail.com</button>
+                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold ">Contactame</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg px-4">van.rg9@gmail.com</button>
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
@@ -70,16 +71,18 @@
 
             <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
                 <div class="col d-flex flex-column align-items-start gap-2">
-                    
-                    <p class="text-body-emphasis">Mi interés se centra en los proyectos integradores y multidisciplinarios que permitan proporcionar herramientas tecnológicas para la comunicación de las ciencias biológicas. </p>
-                    <a href="#" class="btn btn-primary btn-lg">¡Quiero conocer tu proyecto!</a>
+
+                    <p class="text-body-emphasis">Mi interés se centra en los proyectos integradores y
+                        multidisciplinarios que permitan proporcionar herramientas tecnológicas para la comunicación de
+                        las ciencias biológicas, valoro y respeto el trabajo en equipo. </p>
+                    <a href="#" class="btn btn-dark btn-lg">¡Quiero conocer tu proyecto!</a>
                 </div>
 
                 <div class="col">
                     <div class="row row-cols-1 row-cols-sm-2 g-4">
                         <div class="col d-flex flex-column gap-2">
                             <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary  fs-4 rounded-3">
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark  fs-4 rounded-3">
                                 <i class="bi bi-droplet-half"></i>
                                 <use xlink:href="#collection"></use>
                                 </svg>
@@ -92,7 +95,7 @@
 
                         <div class="col d-flex flex-column gap-2">
                             <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
                                 <i class="bi bi-flower3"></i>
                                 <use xlink:href="#gear-fill"></use>
                                 </svg>
@@ -104,7 +107,7 @@
 
                         <div class="col d-flex flex-column gap-2">
                             <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
                                 <i class="bi bi-badge-3d-fill"></i>
                                 <use xlink:href="#speedometer"></use>
                                 </svg>
@@ -116,7 +119,7 @@
 
                         <div class="col d-flex flex-column gap-2">
                             <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
                                 <i class="bi bi-bug-fill"></i>
                                 <use xlink:href="#table"></use>
                                 </svg>
@@ -131,85 +134,52 @@
         </section>
 
         <section class="container px-4 py-5" id="proyectos">
-            <h2 class="pb-2 border-bottom">Custom cards</h2>
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-1.jpg');">
+                    <div id="proyecto-1"
+                        class=" proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Earth</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>3d</small>
+                                <li class="mx-auto">
+                                    <a class="link-primary" href=" http://" target="_blank" rel="noopener noreferrer">
+                                        Da clik aquí
+                                    </a>
+
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-2.jpg');">
+                    <div id="proyecto-2"
+                        class="proyecto card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple
-                                lines</h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clonación de genes</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Pakistan</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>4d</small>
+                                <li class="mx-auto">
+                                    <a class="link-primary" href=" http://" target="_blank" rel="noopener noreferrer">
+                                        Da clik aquí
+                                    </a>
+
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-3.jpg');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                    <div id="proyecto-3" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Diseño de Web</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>California</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>5d</small>
+                                <li class="mx-auto">
+                                    <a class="link-primary" href=" http://" target="_blank" rel="noopener noreferrer">
+                                        Da clik aquí
+                                    </a>
+
                                 </li>
                             </ul>
                         </div>
@@ -219,7 +189,8 @@
         </section>
 
         <section id="testimonios">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <h2 class="container text-center"> Testimonios </h2>
+            <div id="carouselExampleDark" data-bs-theme="dark" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -228,29 +199,46 @@
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
+
+                <!-- contenido del carrucel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
+                        <article class="container py-5 text-center">
+                            <img class="rounded-5" src="Litzi.jpeg" height="300" alt="">
+                            <h3>Litzi Sánchez</h3>
+                            <p> Vanessa Rangel ha demostrado ser una alumna responsable y muy creativa durante el curso.
+                                Su interés por aprender la motiva a mejorar con cada proyecto que realiza.
+                                Litzi Sánchez.
+                                Mentora Técnica en Tecnolochicas.</p>
+                        </article>
+
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <article class="container py-5 text-center">
+                            <img class="rounded-5" src="Luis.png" height="300" alt="">
+                            <h3>Miguel Pedraza</h3>
+                            <p>"Vanesa está altamente capacitada trabajar en equipo. Cumple en tiempo y forma las
+                                actividades designadas en los proyectos en los que he estado involucrado. Posee una
+                                afinidad por los resolver temas complicados y perseverar hasta conseguirlos".</p>
+                        </article>
+
                     </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <article class="container py-5 text-center">
+                            <img class="rounded-5" src="LEV.jpg" height="300" alt="">
+                            <h3>Laboratorio de Ecología Vegetal </h3>
+                            <p> "Vanessa demostró ser una becaria invaluable en nuestro proyecto de identificación de
+                                aves. Su entusiasmo y dedicación fueron contagiosos, y su capacidad para aprender
+                                rápidamente nuevas habilidades fue impresionante, su gusto por la biología le ha
+                                permitido desarrollar una profunda pasión por la conservación de la biodiversidad."
+                            </p>
+                        </article>
+
                     </div>
+
                 </div>
+
+                <!-- Botones que son las flechitas-->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -268,22 +256,54 @@
     </main>
 
 
-    <footer id="contacto" class="container">
+    <footer id="contacto" class="container-fluid bg-black" data-bs-theme="dark">
         <div class="py-3 my-4">
+            <div class="text-center">
+                <i class="bi bi-flower3 fs-1 text-body-secondary"></i>
+            </div>
+
+            <h4 class="text-center text-body-secondary"> hola hola</h4>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item">
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-envelope fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/vanr_9/" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-linkedin fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://github.com/Van-rg9" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-github fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/vanr_9/" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-instagram fs-1"></i>
+                    </a>
+                </li>
+
             </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            <p class="text-center text-body-secondary">© 2024 Vanessa, TECHNOLOCHICAS PRO</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
